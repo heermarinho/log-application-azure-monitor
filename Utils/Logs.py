@@ -10,7 +10,7 @@ logger.addHandler(AzureLogHandler(
     connection_string='InstrumentationKey=FREE KEY')
 )
 
-def log_app(msg):
+def log_app(msg): 
     #line = input("Enter a value: ")
     msg = str(uuid4())+" | "+msg
     print(msg)
